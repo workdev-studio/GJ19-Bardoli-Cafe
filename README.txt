@@ -6,7 +6,7 @@ Open `index.html` in a browser. Internet connection is needed for Google Fonts, 
 ## Included
 - Responsive café landing page
 - Menu categories and sample add-to-cart
-- WhatsApp order message to +91 87800 21197
+- WhatsApp order message to +91 6355440598
 - Google Maps embed and directions
 - Phone call link
 
