@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11100f">
+  <meta name="description" content="GJ19 The Bardoli Cafe - Pizza, burgers, grilled sandwiches, fries and more in Bardoli, Gujarat.">
+  <title>GJ19 The Bardoli Café | Good Food. Great Vibes.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">FRESH BITES · GOOD VIBES · MADE FOR YOUR CRAVINGS</div>
+  <header class="header">
+    <a class="brand" href="#home"><span class="brand-mark">GJ<span>19</span></span><span class="brand-name">THE BARDOLI <b>CAFÈ</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#menu">Our Menu</a><a href="#about">Our Story</a><a href="#visit">Find Us</a>
+      <a class="nav-order" href="#menu">Order Now <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> YOUR FAVOURITE CAFÉ IN BARDOLI</p>
+        <h1>Good food.<br><em>Great</em> moments.</h1>
+        <p class="hero-copy">From cheesy pizzas to loaded sandwiches, make every craving a delicious memory at GJ19 The Bardoli Café.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#menu">Explore Our Menu <span>↗</span></a><a class="btn btn-ghost" href="#visit">Visit Our Café</a></div>
+        <div class="hero-note"><span class="star">★★★★★</span><span>Serving good vibes in Bardoli</span></div>
+      </div>
+      <div class="hero-stamp"><b>GJ19</b><span>THE BARDOLI<br>CAFÈ</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div><p class="eyebrow dark"><span></span> MORE THAN JUST A CAFÉ</p><h2>Made for the<br><em>love of food.</em></h2></div>
+      <p class="intro-text">Whether it's a quick bite before a movie, a catch-up with friends or a little treat for yourself — drop by for satisfying café favourites and feel-good moments.</p>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow"><span></span> WHAT ARE YOU CRAVING?</p><h2>Explore our <em>menu.</em></h2></div><p>Find your favourite, pick your craving<br>and send your order on WhatsApp.</p></div>
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="All">All items</button>
+          <button class="filter" data-filter="Pizza">Pizza</button>
+          <button class="filter" data-filter="Burgers">Burgers</button>
+          <button class="filter" data-filter="Sandwiches">Sandwiches</button>
+          <button class="filter" data-filter="Snacks">Snacks</button>
+          <button class="filter" data-filter="Beverages">Beverages</button>
+        </div>
+        <div class="food-grid" id="foodGrid"></div>
+        <p class="menu-disclaimer">Menu and prices are indicative, based on publicly listed information. Please confirm current availability and prices with the café.</p>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="feature-image"></div>
+      <div class="feature-content"><p class="eyebrow"><span></span> THE GJ19 EXPERIENCE</p><h2>Big flavours.<br><em>Happy hearts.</em></h2><p>Gather your people, follow your cravings and enjoy the simple happiness of good café food.</p><a class="btn btn-primary" href="#visit">Come Say Hello <span>↗</span></a></div>
+    </section>
+
+    <section class="visit section-wrap" id="visit">
+      <div class="visit-copy"><p class="eyebrow dark"><span></span> COME ON OVER</p><h2>Your table<br>is <em>waiting.</em></h2><p>Find us near Cineverse Cinema on Surat–Bardoli Road, Bardoli.</p>
+        <div class="detail"><span class="detail-icon">⌖</span><div><b>Our location</b><p>At Cineverse Cinema, near Vimal Agro Industries, GIDC, Bardoli, Gujarat 394601</p></div></div>
+        <div class="detail"><span class="detail-icon">◷</span><div><b>Opening hours</b><p>Every day · 10:00 AM – 10:00 PM <small>(please confirm before visiting)</small></p></div></div>
+        <div class="detail"><span class="detail-icon">☎</span><div><b>Call us</b><p><a href="tel:+918780021197">+91 87800 21197</a></p></div></div>
+        <div class="visit-actions"><a class="btn btn-dark" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=GJ19+THE+BARDOLI+CAFE+Bardoli">Get Directions ↗</a><a class="btn btn-outline-dark" href="tel:+918780021197">Call Café</a></div>
+      </div>
+      <div class="map-frame"><iframe title="GJ19 The Bardoli Cafe map" src="https://www.google.com/maps?q=GJ19%20THE%20BARDOLI%20CAFE%2C%20Bardoli%2C%20Gujarat&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="map-label"><b>GJ19 THE BARDOLI CAFÈ</b><span>Bardoli, Gujarat</span></div></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">GJ<span>19</span></span><span class="brand-name">THE BARDOLI <b>CAFÈ</b></span></a><p>Good food. Great moments. See you soon.</p><span>© <span id="year"></span> GJ19 The Bardoli Café</span></footer>
+
+  <a class="floating-wa" id="floatingWa" href="https://wa.me/916355440598" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">☏ <span>WhatsApp Us</span></a>
+  <div class="cart-bar" id="cartBar"><div><b id="cartCount">0 items</b><span id="cartTotal">₹0</span></div><button id="sendOrder">Order on WhatsApp ↗</button></div>
+  <script src="script.js"></script>
+</body>
+</html>
